@@ -3,7 +3,7 @@ section .text
 
 _ft_strlen:
     mov     rax, -1
-    jmp     count
+	;jmp     count
 count:
 	mov		cl, [rdi]
 	inc 	rdi
